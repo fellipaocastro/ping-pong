@@ -16,12 +16,6 @@ Usage
 .. code-block:: bash
 
     $ ./ping_pong.py > ping_pong_output
-
-Result
-------
-
-.. code-block:: bash
-
     $ less ping_pong_output
 
 Test
