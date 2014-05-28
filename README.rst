@@ -15,7 +15,14 @@ Usage
 
 .. code-block:: bash
 
-    $ ./ping_pong.py
+    $ ./ping_pong.py > result
+
+Result
+------
+
+.. code-block:: bash
+
+    $ less result
 
 Test
 -----
