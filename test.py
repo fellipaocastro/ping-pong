@@ -5,7 +5,7 @@ import unittest
 from ping_pong import ping_pong
 
 
-class TestPingPongFunction(unittest.TestCase):
+class PingPongTestCase(unittest.TestCase):
     def test_multiple_of_3_and_5_should_return_ping_pong(self):
         self.assertEqual(ping_pong(15), 'ping-pong')
 
