@@ -15,8 +15,8 @@ Usage
 
 .. code-block:: bash
 
-    $ ./ping_pong.py > ping_pong_output
-    $ less ping_pong_output
+    $ ./ping_pong.py > /tmp/ping_pong_output
+    $ less /tmp/ping_pong_output
 
 Test
 -----
