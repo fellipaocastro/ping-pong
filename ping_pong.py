@@ -3,7 +3,8 @@
 
 
 def ping_pong(n):
-    if ((n % 3 == 0) and (n % 5 == 0)):
+    # 3 and 5
+    if n % 15 == 0:
         return 'ping-pong'
     elif n % 3 == 0:
         return 'ping'
