@@ -2,16 +2,28 @@
 # coding: utf-8
 
 
-def ping_pong(n):
+def ping_pong(number):
     # 3 and 5
-    if n % 15 == 0:
+    if check_number_is_visible_by_15(number):
         return 'ping-pong'
-    elif n % 3 == 0:
+    if check_number_is_visible_by_3(number):
         return 'ping'
-    elif n % 5 == 0:
+    if check_number_is_visible_by_5(number):
         return 'pong'
     else:
-        return n
+        return number
+
+
+def check_number_is_visible_by_15(number):
+    return number % 15 == 0
+
+
+def check_number_is_visible_by_3(number):
+    return number % 3 == 0
+
+
+def check_number_is_visible_by_5(number):
+    return number % 5 == 0
 
 
 def main():
