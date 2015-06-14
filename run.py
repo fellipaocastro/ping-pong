@@ -7,7 +7,7 @@ from ping_pong import ping_pong
 
 def main():
     for i in xrange(1, 101):
-        print 'ping_pong(%i) = %s' % (i, ping_pong(i))
+        print 'ping_pong({0}) = {1}'.format(i, ping_pong(i))
 
 if __name__ == '__main__':
     main()
