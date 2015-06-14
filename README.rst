@@ -3,24 +3,30 @@ ping-pong
 
 Ping-pong
 
-Installation
-------------
+Menu
+----
 
 .. code-block:: bash
 
-    $ pip install -r requirements.txt
+    $ ./manage.sh
+
+Setup
+-----
+
+.. code-block:: bash
+
+    $ ./manage.sh setup
 
 Usage
 -----
 
 .. code-block:: bash
 
-    $ ./ping_pong.py > /tmp/ping_pong_output
-    $ less /tmp/ping_pong_output
+    $ ./manage.sh run
 
 Test
 -----
 
 .. code-block:: bash
 
-    $ ./test.py
+    $ ./manage.sh test

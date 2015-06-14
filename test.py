@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
+from __future__ import absolute_import, unicode_literals
 import unittest
 
-from ping_pong import ping_pong
+from run import ping_pong
 
 
 class PingPongTestCase(unittest.TestCase):
