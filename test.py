@@ -3,7 +3,7 @@
 from __future__ import absolute_import, unicode_literals
 import unittest
 
-from run import ping_pong
+from ping_pong import ping_pong
 
 
 class PingPongTestCase(unittest.TestCase):
